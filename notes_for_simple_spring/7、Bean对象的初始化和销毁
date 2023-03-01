@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T14:09:50.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="_948Fq7t1rF1LKoeS5cd" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-01T14:12:03.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="H_G4xLFU74kpZykIaBv9" version="20.8.23" type="github">
   <diagram name="第 1 页" id="zryWFif8tCdmaFEZ82tm">
     <mxGraphModel dx="1434" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -581,8 +581,8 @@
         <mxCell id="DQ25fESVuArlUjUVKeGa-63" value="~ destroy( ): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;fontStyle=1;fontSize=14;" vertex="1" parent="DQ25fESVuArlUjUVKeGa-62">
           <mxGeometry y="60" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DQ25fESVuArlUjUVKeGa-64" value="Bean处理属性填充后调用" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;rounded=0;sketch=0;fontSize=14;fillColor=#FFD966;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="-404" width="170" height="60" as="geometry" />
+        <mxCell id="DQ25fESVuArlUjUVKeGa-64" value="Bean处理属性填充后invokeInitMethods中调用" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;rounded=0;sketch=0;fontSize=14;fillColor=#FFD966;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="-404" width="170" height="74" as="geometry" />
         </mxCell>
         <mxCell id="DQ25fESVuArlUjUVKeGa-65" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=170;exitDy=42.5;exitPerimeter=0;" edge="1" parent="1" source="DQ25fESVuArlUjUVKeGa-64" target="DQ25fESVuArlUjUVKeGa-61">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
