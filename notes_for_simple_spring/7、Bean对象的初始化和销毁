@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T01:40:00.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="EmEoWTXtgRf2KNUI_ISa" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T02:27:13.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="vhE-xeXudaZ9A_fQuHR_" version="21.0.2" type="github">
   <diagram name="第 1 页" id="zryWFif8tCdmaFEZ82tm">
     <mxGraphModel dx="1434" dy="3164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -834,6 +834,24 @@
           <mxGeometry x="-0.2421" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="efKtvzQShCcS_EDbrp9E-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="-1180" as="sourcePoint" />
+            <mxPoint x="1340" y="-1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efKtvzQShCcS_EDbrp9E-31" value="&lt;b&gt;都需要避免二次初始化和二次销毁&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="-1270" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="efKtvzQShCcS_EDbrp9E-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="-1280" as="sourcePoint" />
+            <mxPoint x="1340" y="-1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efKtvzQShCcS_EDbrp9E-34" value="&lt;b&gt;防止既实现了接口又在xml中配置&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1241.5" y="-1370" width="192" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
